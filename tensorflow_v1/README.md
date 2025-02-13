@@ -15,10 +15,6 @@ accuracy is 90%+
 
 There are several more steps to put this prototype on production.
 
-**Ping me for paid technical supports**.
-
-[i@jackon.me](mailto:i@jackon.me)
-
 
 ## Tutorials for TensorFlow Beginners
 
