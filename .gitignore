@@ -1,5 +1,3 @@
-# .gitignore by JackonYang
-
 .ipynb_checkpoints/*
 
 images/*
