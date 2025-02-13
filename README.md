@@ -14,9 +14,7 @@ the accuracy of 4 digits version can be as high as 99.8%!
 
 There are several more steps to put this prototype on production.
 
-**Ping me for paid technical supports**.
 
-[i@jackon.me](mailto:i@jackon.me)
 
 
 ## Table of Contents
