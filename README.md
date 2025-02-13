@@ -145,24 +145,4 @@ scenario: use digits/upper cases, 4 chars per captcha image.
 
 using `-c 10000` param, sampling 10k *random* images.
 
-generating the dataset:
 
-```bash
-$ python3 datasets/gen_captcha.py -du --npi 4 -n 1 -c 10000
-36 choices: 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ
-generating 1 epoches of captchas in ./images/char-4-epoch-1/train.
-only 10000 records used in epoche 1. epoche_count: 1413720
-```
-
-
-## Running Jupyter in docker
-
-tensorflow image: [https://hub.docker.com/r/jackon/tensorflow-2.1-gpu](https://hub.docker.com/r/jackon/tensorflow-2.1-gpu)
-
-```bash
-docker pull jackon/tensorflow-2.1-gpu
-# check if gpu works in docker container
-docker run --rm --gpus all -t jackon/tensorflow-2.1-gpu /usr/bin/nvidia-smi
-# start jupyter server in docker container
-docker run --rm --gpus all -p 8899:8899 -v $(realpath .):/tf/notebooks -t jackon/tensorflow-2.1-gpu
-```
