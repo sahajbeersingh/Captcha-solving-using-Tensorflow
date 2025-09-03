@@ -46,7 +46,7 @@ we will train a model of ~90% accuracy in 1 minute using one single GPU card (GT
 if we increase the dataset by 10x, the accuracy increases to 98.8%.
 we can further increase the accuracy to 99.8% using 1M traning images.
 
-here is the source code and running logs: [captcha-solver-tf2-4digits-AlexNet-98.8.ipynb](captcha-solver-tf2-4digits-Net-98.8.ipynb)
+here is the source code and running logs: [captcha-solver-tf2-4digits-Net-98.8.ipynb](captcha-solver-tf2-4digits-Net-98.8.ipynb)
 
 Images, Ground Truth and Predicted Values:
 
@@ -75,7 +75,7 @@ the code is the same as the 4-digits version, but the training dataset is much b
 
 it costs 2-3 hours to generate training dataset and costs 30 min to train a 95% accuracy model.
 
-here is the source code and running logs: [captcha-solver-tf2-4letters-AlexNet.ipynb](captcha-solver-tf2-4letters-Net.ipynb)
+here is the source code and running logs: [captcha-solver-tf2-4letters-Net.ipynb](captcha-solver-tf2-4letters-Net.ipynb)
 
 
 #### Inference: load trained model and predict given images
