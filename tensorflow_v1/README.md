@@ -29,7 +29,6 @@ The dataset is similar to MNIST, The model is also similar to it.
 1. Using only 1 softmax layer.
 2. Accuracy: 80%+.
 3. Training data: 20000 images.
-4. Time cost: <3min. using GTX-1080.
 
 ```bash
 # generating test data
